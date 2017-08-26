@@ -1,0 +1,232 @@
+html,body{
+	height:100%;
+}
+.headBlock{
+	height:100%;
+}
+.headBlock div{
+	clear:none;
+}
+
+.row {
+    margin-right: 0; 
+    margin-left: 0; 
+	height:100%; 
+}
+
+.col-xs-12.col-sm-10.col-md-6 {
+	padding:0; 
+	height:100%;
+	border-color:black;
+	border-style:solid;
+	border-width:1px;
+	
+}
+
+@media screen and (min-width: 980px) {
+	.col-xs-12.col-sm-10.col-md-6 {
+		width:50%;
+	}
+	
+}
+
+@media screen  and (max-width: 979px){
+	.col-xs-12.col-sm-10.col-md-6 {
+		width:50%;
+	}
+	.col-xs-12.col-sm-6.col-md-3{
+		width:50%;
+	}
+}
+	
+@media screen and (max-width: 500px){
+	.col-xs-12.col-sm-10.col-md-6 {
+		width:100%;
+	}
+	.col-xs-12.col-sm-6.col-md-3{
+		width:100%;
+	}
+}
+
+
+.leftCol{
+	background-color:#F0E68C;
+	height:80%;
+}
+
+.rightCol{
+	background-color:#CAE1FF;
+	height:80%;
+}
+
+.lowerBlock{
+	height:20%;
+	background-color:#CDB38B;
+	border-color:black;
+	border-style:solid;
+	border-width:1px;
+}
+
+.innerBlock{
+	background-color:#CDB38B;
+	height:20%;
+	border-color:black;
+	border-style:solid;
+	border-width:1px;
+}
+
+.squareBlocks{
+	height:30%;
+}
+.squareBlocks {
+	clear:left;
+}
+
+.col-xs-12.col-sm-6.col-md-3 {
+	height:100%;
+	border-color:black;
+	border-style:solid;
+	border-width:1px;
+	background-color:#98FB98;
+	
+}
+
+.rectBlock{
+	height:100%;
+    clear:left;
+}
+.upperBlock{
+	height:70%;
+	background-color:#8B5F65;
+}
+.rectBlock .col-xs-12 .col-sm-10 .col-md-6{
+	border-color:black;
+	border-style:solid;
+	border-width:1px;
+	height:100%;
+	background-color:#CAE1FF;
+}
+
+.rectBlock .lowerSplitBlocks{
+	border-color:black;
+	border-style:solid;
+	border-width:1px;
+	height:30%;
+}
+
+@media screen and (min-width: 980px){
+	.lowerSplitBlocks .col-xs-12.col-md-6 {
+    height:100%;
+	border-color:black;
+	border-style:solid;
+	border-width:1px;
+}
+}
+
+
+
+@media screen  and (max-width: 979px){
+	.lowerSplitBlocks .col-xs-12.col-md-6 {
+    height:50%;
+	border-color:black;
+	border-style:solid;
+	border-width:1px;
+    clear: left;
+    width: 100%;
+}
+}
+
+@media screen and (max-width: 500px){
+	.lowerSplitBlocks .col-xs-12.col-md-6 {
+    height:50%;
+	border-color:black;
+	border-style:solid;
+	border-width:1px;
+}
+}
+
+.fourBlockRow {
+	height:80%;
+	clear:left;
+}
+
+.fourBlockRow .upperSplitBlocks{
+	height:60%;
+}
+
+
+
+.fourBlockRow   .lowerSlab{
+	height:40%;
+	background-color:#63B8FF;
+}
+
+@media screen and (min-width: 980px){
+	.fourBlockRow .col-xs-12.col-sm-6.col-md-6 {
+	height:100%;
+	border-color:black;
+	border-style:solid;
+	border-width:1px;
+	background-color:#8B5F65;
+}
+}
+
+@media screen  and (max-width: 979px){
+	.fourBlockRow .col-xs-12.col-sm-6.col-md-6 {
+	height:50%;
+	border-color:black;
+	border-style:solid;
+	border-width:1px;
+	background-color:#8B5F65;
+	clear:left;
+	width:100%;
+}
+}
+
+@media screen and (max-width: 500px){
+	.fourBlockRow .col-xs-12.col-sm-6.col-md-6 {
+	height:50%;
+	border-color:black;
+	border-style:solid;
+	border-width:1px;
+	background-color:#8B5F65;
+}
+}
+
+.fiveBlockRow{
+	height:80%;
+	clear:left;
+}
+
+ .upperSquares  ,.lowerSquares{
+	 height:50%;
+ }
+ 
+ .upperSquares
+	 .col-xs-12.col-sm-6.col-md-6 {
+			 border-color:black;
+	         border-style:solid;
+	         border-width:1px;
+	         height:100%;
+			 background-color:#FF8C69;
+	 }
+	 
+.lowerSquares
+	 .col-xs-12.col-sm-6.col-md-6 {
+			 border-color:black;
+	         border-style:solid;
+	         border-width:1px;
+	         height:100%;
+			 background-color:#FF8C69;
+} 
+ 
+ .blankBlocks{
+	 height:80%;
+	 clear:left;
+ }
+ .blankBlocks div{
+	 background-color:#FFE7BA;
+	 border-color:black;
+	border-style:solid;
+	border-width:1px;
+ }
